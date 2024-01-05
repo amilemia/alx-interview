@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+"""function for Pascal's Triangle"""
+
 # Define a function to generate Pascal's triangle
 def pascal_triangle(n):
     # Initialize an empty list to store the rows of the triangle
@@ -18,7 +21,3 @@ def pascal_triangle(n):
         result.append(row)
     # Return the result list
     return result
-
-# Test the function with n = 5
-print(pascal_triangle(5))
-# Output: [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
